@@ -1,0 +1,94 @@
+body {
+    color: white;
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#enterTask {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 33px;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+::placeholder {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#task-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 60%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+}
+
+#task-div h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#task-div p {
+    text-align: center;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    /* border-radius: 5px; */
+}
+
+.li-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li-item div {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.li-item div button {
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+span{
+    font-size: 1.2rem;
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
